@@ -213,3 +213,8 @@ audio {
     color: rgba(255,255,255,.8);
     text-align: center
 }
+
+#pdf_box{
+    width: 100%;
+    height: 500px;
+}

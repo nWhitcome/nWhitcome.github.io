@@ -24,10 +24,12 @@ body{
 
 @media screen and (max-width: 800px){
     .article_media_box{width: calc(100% - 10px);}
+    .music_button{width: calc(50% - 3px);}
 }
 
 @media screen and (min-width: 800px){
     .article_media_box{width: calc(50% - 12px);}
+    .music_button{width: calc(25% - 3px);}
 }
 
 h2,h3,.contact_links a,.pro_pic{
@@ -219,7 +221,6 @@ audio {
     display:inline-block;
     font-size: 20px;
     height:45px;
-    width: calc(25% - 3px);
     color:white;
     border:0px;
 }

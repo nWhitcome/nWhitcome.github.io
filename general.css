@@ -25,11 +25,13 @@ body{
 @media screen and (max-width: 800px){
     .article_media_box{width: calc(100% - 10px);}
     .music_button{width: calc(50% - 3px);}
+    .music_button_half{width: calc(50% - 3px);}
 }
 
 @media screen and (min-width: 800px){
     .article_media_box{width: calc(50% - 12px);}
     .music_button{width: calc(25% - 3px);}
+    .music_button_half{width: calc(50% - 2px);}
 }
 
 h2,h3,.contact_links a,.pro_pic{
@@ -217,7 +219,8 @@ audio {
     text-align: center
 }
 
-.music_button{
+.music_button, .music_button_half{
+    margin-bottom: 5px;
     display:inline-block;
     font-size: 20px;
     height:45px;

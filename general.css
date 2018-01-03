@@ -146,7 +146,7 @@ p{
 }
 
 .article_media_box_center{
-    width: calc(100% - 10px);
+    width: 100%;
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -199,6 +199,7 @@ audio {
     width:100%;
     max-width: 750px;
 }
+
 #bottom_box{
     z-index: 10;
     position: relative;
@@ -214,7 +215,11 @@ audio {
     text-align: center
 }
 
-#pdf_box{
-    width: 100%;
-    height: 500px;
+.music_button{
+    display:inline-block;
+    font-size: 20px;
+    height:45px;
+    width: calc(25% - 3px);
+    color:white;
+    border:0px;
 }

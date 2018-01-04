@@ -24,14 +24,12 @@ body{
 
 @media screen and (max-width: 800px){
     .article_media_box{width: calc(100% - 10px);}
-    .music_button{width: calc(50% - 3px);}
-    .music_button_half{width: calc(50% - 3px);}
+    .music_button{width: calc(50% - 4px);}
 }
 
 @media screen and (min-width: 800px){
     .article_media_box{width: calc(50% - 12px);}
-    .music_button{width: calc(25% - 3px);}
-    .music_button_half{width: calc(50% - 2px);}
+    .music_button{width: calc(25% - 4px);}
 }
 
 h2,h3,.contact_links a,.pro_pic{
@@ -220,10 +218,21 @@ audio {
 }
 
 .music_button, .music_button_half{
-    margin-bottom: 5px;
+    margin-bottom: 4px;
+    margin-left: 2px;
+    margin-right: 2px;
     display:inline-block;
     font-size: 20px;
     height:45px;
     color:white;
-    border:0px;
+    border:0;
+}
+
+.music_button_half{
+    width:calc(50% - 4px);
+}
+
+.button_box{
+    width: 100%;
+    font-size: 0;
 }

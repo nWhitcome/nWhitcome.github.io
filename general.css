@@ -78,7 +78,7 @@ h3{
     max-width:1500px;
     margin:0px auto 0px auto;
     height: 124px;
-    padding: 30px 15px 0px 15px;
+    padding: 34px 15px 0px 15px;
 }
 
 /* Format for article content */
@@ -130,17 +130,11 @@ p{
     background:rgba(255,255,255,0.95);
     left: 0px;
     right: 0px;
-    height:26px;
+    height:30px;
     top:0px;
     z-index: 0;
     margin: 0 auto;
     padding: 0 15px 0 15px;
-    border-bottom: 0px;
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
-    border-color: #888;
-    border-style: solid;
 }
 
 .article_media_box{

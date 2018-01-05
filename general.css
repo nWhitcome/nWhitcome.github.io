@@ -42,7 +42,7 @@ h2,h3{
 }
 
 h1{
-    margin: 20px 0 0px 0;
+    margin: 18px 0 0px 0;
     left:0px;
     top:20px;
     float:left;
@@ -189,7 +189,6 @@ p{
 
 audio {
     width:100%;
-    max-width: 750px;
 }
 
 #bottom_box{

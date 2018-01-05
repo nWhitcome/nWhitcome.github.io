@@ -1,5 +1,5 @@
 html {
-    font-family:'Roboto';
+    font-family:'Heebo';
     min-height: 100%;
     position: relative;
 }
@@ -44,7 +44,7 @@ h2,h3{
 h1{
     margin: 20px 0 0px 0;
     left:0px;
-    top:30px;
+    top:20px;
     float:left;
     text-align: left;
     color:#EEEEE7;
@@ -54,7 +54,7 @@ h1{
 }
 
 h2{
-    top: 12px;
+    top: 8px;
     margin-top: 0px;
     font-size: 23px;
     color:#EEEEE7;
@@ -62,7 +62,7 @@ h2{
 }
 
 h3{
-    top: -7px;
+    top: -15px;
     margin-top: 0px;
     font-size: 13px;
     color:#d6d6cf;
@@ -74,8 +74,8 @@ h3{
     right 0px;
     max-width:1500px;
     margin:0px auto 0px auto;
-    height: 124px;
-    padding: 34px 15px 0px 15px;
+    height: 128px;
+    padding: 30px 15px 0px 15px;
 }
 
 /* Format for article content */

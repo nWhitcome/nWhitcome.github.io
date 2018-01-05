@@ -1,7 +1,6 @@
 html {
     font-family:'Heebo';
     min-height: 100%;
-    position: relative;
 }
 
 body{  
@@ -43,19 +42,19 @@ body{
     .music_button{width: calc(25% - 4px);}
 }
 
-h2,h3,.contact_links a,.pro_pic{
+h2,h3,.contact_links a,.pro_pic,html,#rectangle{
     position:relative;
 }
 
 h2,h3{
     padding-right: 120px;
-    white-space: nowrap;
 }
 
 h1{
-    margin: 18px 0 0px 0;
-    left:0px;
-    top:20px;
+    line-height: 128px;
+    height: 128px;
+    vertical-align: middle;
+    margin:0;
     float:left;
     text-align: left;
     color:#EEEEE7;
@@ -66,34 +65,33 @@ h1{
 
 h2{
     top: 8px;
-    margin-top: 0px;
+    margin: 0 0 4px;
     font-size: 23px;
-    color:#EEEEE7;
+    color:rgba(255,255,255,0.95);
     width: auto;
 }
 
 h3{
-    top: -15px;
-    margin-top: 0px;
+    top: 0;
+    margin: 0;
     font-size: 13px;
     color:#d6d6cf;
 }
 
 #top_bar{
+    position: relative;
     top:0px;
     left: 0px;
     right 0px;
     max-width:1500px;
     margin:0px auto 0px auto;
     height: 128px;
-    padding: 30px 15px 0px 15px;
+    padding: 0px 15px 0px 15px;
 }
 
 /* Format for article content */
 h4{
-    margin-top: 0px;
-    margin-bottom: 5px;
-    padding-bottom: 5px;
+    margin: 0 0 5px 0;
     font-size: 23px;
     color:#333;
     border-bottom: 2px dotted;
@@ -116,10 +114,12 @@ p{
 
 /* Content for navigation tabs */
 .contact_links{
-    margin: 1px auto 0 auto;
+    margin: 0 auto;
     max-width:1500px;
-    height: 29px;
+    height: 30px;
     white-space: nowrap;
+    vertical-align: middle;
+    line-height: 30px;
 }
 
 .contact_link_individual {
@@ -127,19 +127,15 @@ p{
 }
 
 #rectangle{
-    position: absolute;
     background:rgba(255,255,255,0.95);
     left: 0px;
     right: 0px;
     height:30px;
-    top:0px;
-    z-index: 0;
-    margin: 0 auto;
-    padding: 0 15px 0 15px;
+    padding: 0 15px;
 }
 
 .article_media_box{
-    margin: 5px 5px 5px 5px;
+    margin: 5px;
     display: inline-block;
 }
 
@@ -150,31 +146,32 @@ p{
 }
 
 #tab{
-    padding: 10px 15px 0 15px;
+    position: relative;
+    padding: 0px 15px;
     height: auto;
     color: rgba(50,50,50,.9);
     font-size: 16px;
     z-index: 1;
-    margin: 0 auto 0 auto;
+    margin: 0 auto;
     background: rgba(255,255,255,0.95);
 }
 
 .personal_info{
-    height: 120px;
+    height: 128px;
     white-space: nowrap;
 }
 
 .pro_pic{
-    width: 101px;
-    height: 101px;
+    width: 100px;
+    height: 100px;
     float:right;
     background: url(GENERAL_IMAGES/profile.jpg);
-    background-size: 101px 101px;
+    background-size: 100px 100px;
     background-repeat: no-repeat;
     top: 12px;
     right: 5px;
     border-radius: 100%;
-    border: 2px solid #a1a1a1;
+    border: 2px solid rgba(255,255,255,0.95);
 }
 
 .obfuscate { unicode-bidi: bidi-override; direction: rtl; }
@@ -187,8 +184,7 @@ p{
     left:0;
     right:0;
     margin: 0 auto;
-    background: #222;
-    background: rgba(30,30,30,0.9);
+    background: rgba(30,30,30,0.8);
 }
 
 audio {
@@ -201,23 +197,18 @@ audio {
     bottom:0;
     left:0;
     right:0;
-    margin: 0 auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    background: #222;
-    background: rgba(30,30,30,0);
-    color: rgba(255,255,255,.8);
-    text-align: center
+    color: rgba(255,255,255,.85);
+    text-align: center;
+    line-height: 40px;
+    height:40px;
 }
 
 .music_button, .music_button_half{
-    margin-bottom: 4px;
-    margin-left: 2px;
-    margin-right: 2px;
+    margin: 0 2px 4px 2px;
     display:inline-block;
     font-size: 20px;
     height:45px;
-    color:white;
+    color:rgba(255,255,255,0.95);
     border:0;
 }
 

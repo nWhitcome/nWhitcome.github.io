@@ -9,8 +9,8 @@ body{
     overflow-x: hidden;
     margin: 0;
     overflow-y: auto;
-    background-size: cover;
     background-position:top center;
+	background-repeat:no-repeat;
 }
 
 
@@ -195,8 +195,19 @@ audio {
 }
 
 #bottom_box{
-    z-index: 10;
+    z-index: -101;
     position: relative;
+    bottom:0;
+    left:0;
+    right:0;
+	
+	background-position:bottom center;
+    height:40px;
+}
+
+#bottom_box_text{
+	z-index: -10;
+    position: absolute;
     bottom:0;
     left:0;
     right:0;
@@ -223,3 +234,4 @@ audio {
     width: 100%;
     font-size: 0;
 }
+	

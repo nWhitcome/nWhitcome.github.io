@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Projects</title>
+        <title>Home</title>
         <link href="general.css" rel="stylesheet">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Heebo">
         <style>a {text-decoration: none}</style>
         <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
     </head>
-    <body style="background-image:url('GENERAL_IMAGES/back1top.jpg');">
+    <body style="background-image:url('GENERAL_IMAGES/backHomeTop.jpg');">
         
         <div id="background_box"></div>
         <!-- Contact info and picture at the top -->
         <header id="top_bar">
-            <h1>Projects</h1>
+            <h1>Home</h1>
             <div class="personal_info">
                 <div class="pro_pic"></div>
                 <h2>Nathan Whitcome</h2>
@@ -26,54 +26,41 @@
         <!-- Links to other parts of the page -->
         <nav id="rectangle">
             <div class="contact_links">
-                <a class="contact_link_individual" style="color: rgba(50,50,50,.8);">Projects</a>
+                <a class="contact_link_individual" style="color: rgba(50,50,50,.8);">Home</a>
+				<a class="contact_link_individual" href="projects.html" style="color:rgba(50,50,50,.45); font-size: 20px ">Projects</a>
                 <a class="contact_link_individual" href="music_page.html" style="color:rgba(50,50,50,.45); font-size: 20px ">Music</a>
             </div>
         </nav>
         
         <!-- Inner rectangle that also contains text -->
         <main id="tab">
+			<div class="article_box">
+				<h4>About Me</h4>
+				<img class="article_media_box" src="GENERAL_IMAGES/HP1.jpg" alt="Left to right: Ben Stone, Nathan Whitcome, and Eric Hertel">
+				<img class="article_media_box" src="GENERAL_IMAGES/HP2.jpg" alt="Left to right: Larkin Chapman and Nathan Whitcome">
+				<p>My name is Nathan Whitcome, and I'm a computer engineering student about to finish my sophomore year at Iowa State University.</p>
+				<p>I spend a lot of my time working on my classes, but in my free time I like to write and perform music. I participate in Open Mic Night and Audio Engineering Society when they meet and take up other projects in my free time, some of which you can see on the "projects" portion of my webpage.</p>
+				<p>I am also an Eagle Scout with over twelve years of scouting experience and 600+ total service hours.</p>
             <div class="article_box">
-                <h4>Hack ISU Spring 2017</h4>
-                <p>Hack ISU was my first hackathon, and one of my strongest learning experiences with coding and team building. I had just finished my first semester as a computer engineering major, and I had a basic knowledge of coding in C and Java, neither of which was good enough to get me or my partner where we wanted to be. We spent a few hours trying to come up with a good idea to work on, eventually realizing that we should've had some sort of plan when we arrived. Our first idea that we really started to work on was a social media platform that allowed you to take pictures of a location and post them for others to view so that they could see what the area looks like at different times throughout the year. Neither one of us had nearly enough experience with web-based design to get anywhere, so we moved on and spent more time brainstorming, eventually working independently.</p>
-                
-                <p>I had an idea for an app designed for my Pebble that I could actually use, one to order smoothies from a food vendor on campus, Conversations, with the push of a button. I ordered a wildberry or strawberry banana smoothie from them every night at around 10pm every day I could, only missing a handful of days in the last quarter.</p> 
-                
-                <p>I was and still am pretty proud of my consistancy.</p>
-                
-                <p>I looked to the internet hoping to find a tutorial of some sort that I could use as a crutch to get me started. I stumbled upon a hackathon project from a previous year in which the designers made an app to order Chipotle from a pebble by de-compiling the app designed for mobile and immitating the commands that would sormally be issued by the app to the server. I decompilied the GET (the service Iowa State uses to queue meal orders) app to try it for myself, but I was way in over my head, especially since I was working alone and the Chipoltle app was developed with a team.</p>
-                
-                <p>I was out of ideas from there until I talked to a programmer in his senior year, learning about PhantomJS, a headless web browser that worked with JavaScript, one of the languages pebble can use. I worked for hours setting up a program that would run a list of commands that would log me into the GET website, navegate to the correct page, and order my food for the correct time, taking a screenshot at each point so I could tell if it was working.</p>
-                
-                <img class="article_media_box" src="HISU_2017/stage1.png" alt="Hack ISU 2017 Picture 1"><!-- TODO: Convert files to a better format -->
-                <img class="article_media_box" src="HISU_2017/stage2.png" alt="Hack ISU 2017 Picture 2">
-                <img class="article_media_box" src="HISU_2017/stage3.png" alt="Hack ISU 2017 Picture 3">
-                <img class="article_media_box" src="HISU_2017/stage4.png" alt="Hack ISU 2017 Picture 4">
-                
-                <p> I was very, very close at being successful, but ran into some problems with drop-down boxes. It was also late at that point, so I went to bed.</p>
-                
-                <p>I never figured out exactly how I would bridge the gap from the JavaScript on my PC to my pebble, or if it's even possible with what I was using. My back-up plan was to have a raspberry pi server that I could send commands to from my phone, and therefore my watch, that would do these sorts of things. I never ended up working on the project anymore because of how busy I became. The GET portion would also become irrelevent the following year due to Iowa State scrapping meal bundles, and it wasn't worth the time to have it work for a couple short weeks. Either way, it was a great introduction to using JavaScript I wouldn't have had had I not shown up.</p>
-                
-            </div>
-            <div class="article_box">
-                <h4>166 Keytar</h4>
-                <p>Computer Engineering 166 is a one credit class I had the pleasure of taking the second semester of my freshman year of college. It was an optional class based around my learning community with the purpose of developing teamwork and problem solving skills in a way that would be applicable to the real world. It only met twice a week as a two hour lab, but that was enough time to get decently far on our project, the keytar.</p>
-                <div class = "article_media_box_center">
-                <video style="width:100%" controls>
-                    <source src="286_VIDEO/286%20Project.mp4" type="video/mp4">
-                    Your browser does not support HTML5 video.
-                </video>
-                </div>
-                
-                <!-- TODO: Add keytar video -->
-            </div>
-            <div class="article_box">
-                <h4>EDD Modular Textbook</h4>
-                <p>This project was from my senior year of high school and my third Project Lead the Way class. Engineering Development and Design, or EDD, focused on the engineering process grom the ground up, gantt charts and all. Our final report ended up being 65 pages, and goes very in-depth about the problem we tried to solve, how we went about trying to solve it, and our final solution.</p>
-                <a href="EDD/Palmero_Whitcome%20Final.pdf" target="_blank">Click here to view the full report</a>
+				<h4>Notable Classes Taken</h4>
+				<strong>College</strong>
+				<ul>
+					<li>Computer Engineering 185 - Intro to C programming</li>
+					<li>Computer Engineering 186 - Teamwork and project development</li>
+					<li>Computer Engineering 281 - Digital logic and circuit design</li>
+					<li>Computer Science 227 - Intro to Java programming</li>
+					<li>Computer Science 228 - Java data systems and structures</li>
+				</ul>
+				<strong>High School</strong>
+				<ul>
+					<li>Introduction to Engineering Design</li>
+					<li>Principles of Engineering</li>
+					<li>Engineering Design and Development</li>
+				</ul>
+				
             </div>
         </main>
-        <footer id = "bottom_box" style="background-image:url('GENERAL_IMAGES/back1bottom.jpg');"></footer>
+        <footer id = "bottom_box" style="background-image:url('GENERAL_IMAGES/backHomeBottom.jpg');"></footer>
 		<div id="bottom_box_text">© Nathan Whitcome 2018</div>
      </body>
 </html>

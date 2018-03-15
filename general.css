@@ -19,7 +19,7 @@ body{
         text-align: left;
     }
     .personal_info{width: 100%;}
-    .contact_link_individual {display:inline-block; width:50%; text-align: center;}
+    .contact_link_individual {display:inline-block; width:33%; text-align: center;}
  }
 
 @media screen and (min-width: 620px){
@@ -96,8 +96,16 @@ h4{
     border-color: #999;
 }
 
-p{
+p, ul{
     font-size: 16px;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+strong {
+	font-weight:bold;
+	font-size: 18px;
     margin-top: 6px;
     margin-bottom: 10px;
     line-height: 1.5;
@@ -155,6 +163,7 @@ p{
     z-index: 1;
     margin: 0 auto;
     background: rgba(255,255,255,0.95);
+	min-height:900px;
 }
 
 .personal_info{
